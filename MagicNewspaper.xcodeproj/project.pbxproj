@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1043118252E69CF000C2C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1043117252E69CF000C2C54 /* AppDelegate.swift */; };
+		D104311A252E69CF000C2C54 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D1043119252E69CF000C2C54 /* art.scnassets */; };
+		D104311C252E69CF000C2C54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D104311B252E69CF000C2C54 /* ViewController.swift */; };
+		D104311F252E69CF000C2C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D104311D252E69CF000C2C54 /* Main.storyboard */; };
+		D1043121252E69D1000C2C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1043120252E69D1000C2C54 /* Assets.xcassets */; };
+		D1043124252E69D1000C2C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1043122252E69D1000C2C54 /* LaunchScreen.storyboard */; };
+		D104312F252E69D1000C2C54 /* MagicNewspaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D104312E252E69D1000C2C54 /* MagicNewspaperTests.swift */; };
+		D104313A252E69D1000C2C54 /* MagicNewspaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1043139252E69D1000C2C54 /* MagicNewspaperUITests.swift */; };
+		D104314B252E6AAD000C2C54 /* HarryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D104314A252E6AAD000C2C54 /* HarryPotter.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D104312B252E69D1000C2C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D104310C252E69CF000C2C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1043113252E69CF000C2C54;
+			remoteInfo = MagicNewspaper;
+		};
+		D1043136252E69D1000C2C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D104310C252E69CF000C2C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1043113252E69CF000C2C54;
+			remoteInfo = MagicNewspaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1043114252E69CF000C2C54 /* MagicNewspaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicNewspaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1043117252E69CF000C2C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1043119252E69CF000C2C54 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D104311B252E69CF000C2C54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D104311E252E69CF000C2C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1043120252E69D1000C2C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1043123252E69D1000C2C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1043125252E69D1000C2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D104312A252E69D1000C2C54 /* MagicNewspaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicNewspaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D104312E252E69D1000C2C54 /* MagicNewspaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNewspaperTests.swift; sourceTree = "<group>"; };
+		D1043130252E69D1000C2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1043135252E69D1000C2C54 /* MagicNewspaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicNewspaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1043139252E69D1000C2C54 /* MagicNewspaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNewspaperUITests.swift; sourceTree = "<group>"; };
+		D104313B252E69D1000C2C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D104314A252E6AAD000C2C54 /* HarryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarryPotter.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1043111252E69CF000C2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043127252E69D1000C2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043132252E69D1000C2C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D104310B252E69CF000C2C54 = {
+			isa = PBXGroup;
+			children = (
+				D1043116252E69CF000C2C54 /* MagicNewspaper */,
+				D104312D252E69D1000C2C54 /* MagicNewspaperTests */,
+				D1043138252E69D1000C2C54 /* MagicNewspaperUITests */,
+				D1043115252E69CF000C2C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1043115252E69CF000C2C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1043114252E69CF000C2C54 /* MagicNewspaper.app */,
+				D104312A252E69D1000C2C54 /* MagicNewspaperTests.xctest */,
+				D1043135252E69D1000C2C54 /* MagicNewspaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1043116252E69CF000C2C54 /* MagicNewspaper */ = {
+			isa = PBXGroup;
+			children = (
+				D104314A252E6AAD000C2C54 /* HarryPotter.mp4 */,
+				D1043117252E69CF000C2C54 /* AppDelegate.swift */,
+				D1043119252E69CF000C2C54 /* art.scnassets */,
+				D104311B252E69CF000C2C54 /* ViewController.swift */,
+				D104311D252E69CF000C2C54 /* Main.storyboard */,
+				D1043120252E69D1000C2C54 /* Assets.xcassets */,
+				D1043122252E69D1000C2C54 /* LaunchScreen.storyboard */,
+				D1043125252E69D1000C2C54 /* Info.plist */,
+			);
+			path = MagicNewspaper;
+			sourceTree = "<group>";
+		};
+		D104312D252E69D1000C2C54 /* MagicNewspaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D104312E252E69D1000C2C54 /* MagicNewspaperTests.swift */,
+				D1043130252E69D1000C2C54 /* Info.plist */,
+			);
+			path = MagicNewspaperTests;
+			sourceTree = "<group>";
+		};
+		D1043138252E69D1000C2C54 /* MagicNewspaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1043139252E69D1000C2C54 /* MagicNewspaperUITests.swift */,
+				D104313B252E69D1000C2C54 /* Info.plist */,
+			);
+			path = MagicNewspaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1043113252E69CF000C2C54 /* MagicNewspaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D104313E252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaper" */;
+			buildPhases = (
+				D1043110252E69CF000C2C54 /* Sources */,
+				D1043111252E69CF000C2C54 /* Frameworks */,
+				D1043112252E69CF000C2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicNewspaper;
+			productName = MagicNewspaper;
+			productReference = D1043114252E69CF000C2C54 /* MagicNewspaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1043129252E69D1000C2C54 /* MagicNewspaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1043141252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaperTests" */;
+			buildPhases = (
+				D1043126252E69D1000C2C54 /* Sources */,
+				D1043127252E69D1000C2C54 /* Frameworks */,
+				D1043128252E69D1000C2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D104312C252E69D1000C2C54 /* PBXTargetDependency */,
+			);
+			name = MagicNewspaperTests;
+			productName = MagicNewspaperTests;
+			productReference = D104312A252E69D1000C2C54 /* MagicNewspaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1043134252E69D1000C2C54 /* MagicNewspaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1043144252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaperUITests" */;
+			buildPhases = (
+				D1043131252E69D1000C2C54 /* Sources */,
+				D1043132252E69D1000C2C54 /* Frameworks */,
+				D1043133252E69D1000C2C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1043137252E69D1000C2C54 /* PBXTargetDependency */,
+			);
+			name = MagicNewspaperUITests;
+			productName = MagicNewspaperUITests;
+			productReference = D1043135252E69D1000C2C54 /* MagicNewspaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D104310C252E69CF000C2C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D1043113252E69CF000C2C54 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D1043129252E69D1000C2C54 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D1043113252E69CF000C2C54;
+					};
+					D1043134252E69D1000C2C54 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D1043113252E69CF000C2C54;
+					};
+				};
+			};
+			buildConfigurationList = D104310F252E69CF000C2C54 /* Build configuration list for PBXProject "MagicNewspaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D104310B252E69CF000C2C54;
+			productRefGroup = D1043115252E69CF000C2C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1043113252E69CF000C2C54 /* MagicNewspaper */,
+				D1043129252E69D1000C2C54 /* MagicNewspaperTests */,
+				D1043134252E69D1000C2C54 /* MagicNewspaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1043112252E69CF000C2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104311A252E69CF000C2C54 /* art.scnassets in Resources */,
+				D104314B252E6AAD000C2C54 /* HarryPotter.mp4 in Resources */,
+				D1043124252E69D1000C2C54 /* LaunchScreen.storyboard in Resources */,
+				D1043121252E69D1000C2C54 /* Assets.xcassets in Resources */,
+				D104311F252E69CF000C2C54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043128252E69D1000C2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043133252E69D1000C2C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1043110252E69CF000C2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104311C252E69CF000C2C54 /* ViewController.swift in Sources */,
+				D1043118252E69CF000C2C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043126252E69D1000C2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104312F252E69D1000C2C54 /* MagicNewspaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1043131252E69D1000C2C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D104313A252E69D1000C2C54 /* MagicNewspaperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D104312C252E69D1000C2C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1043113252E69CF000C2C54 /* MagicNewspaper */;
+			targetProxy = D104312B252E69D1000C2C54 /* PBXContainerItemProxy */;
+		};
+		D1043137252E69D1000C2C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1043113252E69CF000C2C54 /* MagicNewspaper */;
+			targetProxy = D1043136252E69D1000C2C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D104311D252E69CF000C2C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D104311E252E69CF000C2C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1043122252E69D1000C2C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1043123252E69D1000C2C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D104313C252E69D1000C2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D104313D252E69D1000C2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D104313F252E69D1000C2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1043140252E69D1000C2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1043142252E69D1000C2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicNewspaper.app/MagicNewspaper";
+			};
+			name = Debug;
+		};
+		D1043143252E69D1000C2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicNewspaper.app/MagicNewspaper";
+			};
+			name = Release;
+		};
+		D1043145252E69D1000C2C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicNewspaper;
+			};
+			name = Debug;
+		};
+		D1043146252E69D1000C2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = MagicNewspaperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.MagicNewspaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicNewspaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D104310F252E69CF000C2C54 /* Build configuration list for PBXProject "MagicNewspaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D104313C252E69D1000C2C54 /* Debug */,
+				D104313D252E69D1000C2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D104313E252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D104313F252E69D1000C2C54 /* Debug */,
+				D1043140252E69D1000C2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1043141252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1043142252E69D1000C2C54 /* Debug */,
+				D1043143252E69D1000C2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1043144252E69D1000C2C54 /* Build configuration list for PBXNativeTarget "MagicNewspaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1043145252E69D1000C2C54 /* Debug */,
+				D1043146252E69D1000C2C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D104310C252E69CF000C2C54 /* Project object */;
+}
